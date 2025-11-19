@@ -44,7 +44,7 @@ const Header = () => {
             </Button>
           </Link>
 
-          <Link to={"/adminlogin"}>
+          <Link to={"/addevents"}>
             <Button
               color="inherit"
               style={{ color: "white", marginRight: "10px" }}
@@ -53,14 +53,7 @@ const Header = () => {
             </Button>
           </Link>
 
-          <Link to={"/studentlogin"}>
-            <Button
-              color="inherit"
-              style={{ color: "white", marginRight: "10px" }}
-            >
-              Student
-            </Button>
-          </Link>
+          
         </Toolbar>
       </AppBar>
     </Box>
